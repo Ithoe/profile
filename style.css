@@ -1,0 +1,65 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+body {
+  color: #4B2142;
+  background-color: #F6E4F6;
+  font-family: 'Poppins';
+  font-size: 15px;
+  line-height: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: rgba(86, 14, 104, 0.9);
+  font-family: 'MonteCarlo', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color:rgba(97, 16, 117, 0.9);
+  font-family: 'MonteCarlo', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3{
+  color:rgba(111, 19, 134, 0.9);
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+
+a:hover{
+  color:pink;
+}
+
+.card{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 30px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+  border-width: 20px;
+  text-align: center;
+}
+
+.propic{
+  width: 300px;
+  border-radius: 200px;
+  margin: 0 auto;
+}
+
+h3 > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
